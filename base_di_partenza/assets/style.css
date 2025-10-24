@@ -104,3 +104,8 @@ header {
   border-radius: 8px;
   object-fit: cover;
 }
+
+.allineatore {
+  display: flex;
+  align-items: flex-start;
+}
