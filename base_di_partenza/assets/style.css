@@ -1,0 +1,106 @@
+header {
+    background-color: #ffc017;
+    font-family: roboto, sans-serif;
+    border: black 2px solid;
+}
+.logo {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.secondo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+.aggiusto {
+    display: flex;
+    flex-direction: column;
+}
+
+.titolo {
+  font-family: spectral, serif;
+  font-size: 60px;
+}
+
+.bottone {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    width: 120px;
+}
+
+.classe {
+  display: flex;
+  flex-direction: row;
+}
+
+.numeretti {
+  opacity: 0.3;
+}
+
+.articolo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.contenuto {
+  flex: 1;
+}
+
+.autore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.foto-autore {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info-autore {
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-autore {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dettagli {
+  font-size: 12px;
+  color: #777;
+}
+
+.titolo-articolo {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.descrizione {
+  font-size: 14px;
+  color: #555;
+}
+
+.img-articolo {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
